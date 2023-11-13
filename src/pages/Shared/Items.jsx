@@ -7,11 +7,14 @@ const Items = ({ items }) => {
 
             <div className="grid grid-cols-2 gap-6">
                 {
-                    items.map(item => <Item key={item._id} item={item}></Item>)
+                    items.map(item => <Item
+                        key={item._id}
+                        item={item}
+                    ></Item>)
                 }
             </div>
             <div className="flex justify-center my-6">
-                <button className="btn">See All</button>
+                <button className="btn">View Full Menu</button>
             </div>
         </div>
     );

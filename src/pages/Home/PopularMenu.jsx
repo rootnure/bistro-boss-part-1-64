@@ -12,7 +12,7 @@ const PopularMenu = () => {
                 setPopularMenu(popularItems);
             })
     }, []);
-    console.log(popularMenu);
+
     return (
         <section>
             <SectionTitle
