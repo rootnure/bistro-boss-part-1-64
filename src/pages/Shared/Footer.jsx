@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
                 </Container>
             </div>
-            <div className="footer-center p-4 bg-base-300 text-base-content">
+            <div className="footer-center p-4 bg-black text-white font-medium">
                 <aside>
                     <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
                 </aside>
