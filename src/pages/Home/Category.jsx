@@ -12,7 +12,7 @@ import SectionTitle from '../../components/SectionTitle';
 
 const Category = () => {
     return (
-        <>
+        <section>
             <SectionTitle
                 heading="Order Online"
                 subHeading="From 11:00AM to 10:00PM"
@@ -47,7 +47,7 @@ const Category = () => {
                     <h3 className='text-4xl uppercase text-center -mt-12 text-white font-bold [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Salads</h3>
                 </SwiperSlide>
             </Swiper>
-        </>
+        </section>
     );
 };
 
