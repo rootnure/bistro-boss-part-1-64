@@ -19,7 +19,7 @@ const PopularMenu = () => {
                 heading="From Our Menu"
                 subHeading="Popular Items"
             ></SectionTitle>
-            <Items items={popularMenu}></Items>
+            <Items items={popularMenu} isBgWhite={true}></Items>
         </section>
     );
 };

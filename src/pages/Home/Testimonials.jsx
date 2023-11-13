@@ -1,6 +1,6 @@
 import SectionTitle from '../../components/SectionTitle';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { FaQuoteRight } from "react-icons/fa";
+import { FaQuoteLeft } from "react-icons/fa";
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -24,7 +24,7 @@ const Testimonials = () => {
         <section>
             <SectionTitle
                 heading="Testimonials"
-                subHeading="What Out Clients Say"
+                subHeading="What Our Clients Say"
             ></SectionTitle>
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
 
@@ -32,14 +32,14 @@ const Testimonials = () => {
                     reviews.map(review => <SwiperSlide
                         key={review._id}
                     >
-                        <div className='py-12 flex items-center flex-col gap-8 w-3/4 mx-auto text-center'>
+                        <div className='py-12 flex items-center flex-col gap-8 w-10/12 mx-auto text-center'>
                             <Rating
                                 style={{ maxWidth: "175px" }}
                                 value={review.rating}
                                 readOnly></Rating>
-                            <h1 className="text-7xl"><FaQuoteRight></FaQuoteRight></h1>
+                            <h1 className="text-7xl"><FaQuoteLeft></FaQuoteLeft></h1>
                             <p>{review.details}</p>
-                            <h2 className="text-2xl text-orange-400 font-semibold">{review.name}</h2>
+                            <h2 className="text-3xl text-orange-400 font-semibold">{review.name}</h2>
                         </div>
                     </SwiperSlide>)
                 }

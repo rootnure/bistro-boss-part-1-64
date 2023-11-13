@@ -18,7 +18,7 @@ const Category = () => {
                 subHeading="From 11:00AM to 10:00PM"
             ></SectionTitle>
             <Swiper
-                slidesPerView={3}
+                slidesPerView={4}
                 spaceBetween={10}
                 pagination={{
                     clickable: true,
@@ -28,23 +28,23 @@ const Category = () => {
             >
                 <SwiperSlide>
                     <img src={categoryImg1} alt="" className='w-fit mx-auto' />
-                    <h3 className='text-4xl uppercase text-center -mt-12 text-white font-bold [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Salads</h3>
+                    <h3 className='text-4xl uppercase text-center -mt-16 mb-12 text-white font-medium [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Salads</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={categoryImg2} alt="" className='w-fit mx-auto' />
-                    <h3 className='text-4xl uppercase text-center -mt-12 text-white font-bold [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Pizzas</h3>
+                    <h3 className='text-4xl uppercase text-center -mt-16 mb-12 text-white font-medium [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Pizzas</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={categoryImg3} alt="" className='w-fit mx-auto' />
-                    <h3 className='text-4xl uppercase text-center -mt-12 text-white font-bold [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Soups</h3>
+                    <h3 className='text-4xl uppercase text-center -mt-16 mb-12 text-white font-medium [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Soups</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={categoryImg4} alt="" className='w-fit mx-auto' />
-                    <h3 className='text-4xl uppercase text-center -mt-12 text-white font-bold [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Dessert</h3>
+                    <h3 className='text-4xl uppercase text-center -mt-16 mb-12 text-white font-medium [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Dessert</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={categoryImg5} alt="" className='w-fit mx-auto' />
-                    <h3 className='text-4xl uppercase text-center -mt-12 text-white font-bold [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Salads</h3>
+                    <h3 className='text-4xl uppercase text-center -mt-16 mb-12 text-white font-medium [text-shadow:_4px_4px_0_rgb(0_0_0_/_40%)]'>Salads</h3>
                 </SwiperSlide>
             </Swiper>
         </section>

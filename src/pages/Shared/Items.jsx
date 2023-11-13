@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
 import Item from "../../components/Item";
+import MainBtn from "../../components/MainBtn";
 
-const Items = ({ items }) => {
+const Items = ({ items, isBgWhite }) => {
     return (
         <div>
 
@@ -14,14 +15,15 @@ const Items = ({ items }) => {
                 }
             </div>
             <div className="flex justify-center my-6">
-                <button className="btn">View Full Menu</button>
+                <MainBtn isBgWhite={isBgWhite}>View Full Menu</MainBtn>
             </div>
         </div>
     );
 };
 
 Items.propTypes = {
-    items: PropTypes.array.isRequired
+    items: PropTypes.array.isRequired,
+    isBgWhite: PropTypes.bool
 }
 
 export default Items;
