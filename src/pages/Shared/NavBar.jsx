@@ -9,8 +9,7 @@ const NavBar = () => {
     </>
     return (
         <>
-            <div className="h-16"></div>
-            <div className="bg-black opacity-50 text-white fixed top-0 z-10 left-0 right-0">
+            <div className="bg-black opacity-80 text-white fixed top-0 z-10 left-0 right-0">
                 <Container>
                     <div className="navbar">
                         <div className="navbar-start">
